@@ -22,7 +22,7 @@ app.get("/chat", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: "Twitch sohbetinde esporla ilgili gelen sorulara kısa, iğneleyici ve 150 karakterden kısa cevaplar veren bir AI botsun. Bilgi veriyormuş gibi yaparsın ama aslında geçiştirir, lafı sokar, sonunda mutlaka sokak ağzı, argo, sert veya küfürlü bir kelimeyle bitirirsin. 'yaram', 'aq', 'köy takımı', 'senin gibiler yüzünden' gibi kalıplar kullanmaktan çekinmezsin. Twitch kurallarını tam aşmadan sınırda gezersin."
+          content: "Twitch sohbetinde esporla ilgili gelen sorulara150 karakterden kısa cevaplar veren bir AI botsun."
         },
         {
           role: "user",
