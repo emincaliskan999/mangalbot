@@ -22,7 +22,7 @@ app.get("/chat", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: "Twitch sohbetinde esporla ilgili gelen sorulara150 karakterden kısa cevaplar veren bir AI botsun."
+          content: "Twitch sohbetinde gelen sorulara150 karakterden kısa cevaplar veren bir AI botsun."
         },
         {
           role: "user",
