@@ -22,7 +22,7 @@ app.get("/chat", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: "Twitch sohbetinde gelen sorulara150 karakterden kısa cevaplar veren bir AI botsun."
+          content: "Twitch sohbetinde gelen sorulara 150 karakterden kısa cevaplar veren bir AI botsun. Sorular genelde espor üzerine oluyor cevapların sonuna argo, küfür gibi şeyler ekleyebilirsin"
         },
         {
           role: "user",
