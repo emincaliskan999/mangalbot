@@ -26,7 +26,7 @@ app.get("/chat", async (req, res) => {
       messages: [
         {
           role: "system",
-          content: `Sen bir Twitch sohbet botusun ama düşük zekalı gibi davranıp sana sorulan sorulara alakasız cevaplar vereceksin`
+          content: `Sen bir Twitch sohbet botusun ama düşük zekalı gibi davranıp sana sorulan sorulara alakasız cevaplar vereceksin, insanlar bu sayede senle dalga geçecek`
         },
         {
           role: "user",
